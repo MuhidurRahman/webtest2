@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body {
+    display: flex;
+    background-color: rgb(17, 17, 24);
+    height: 100svh;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    background-color: rgb(19, 21, 26);
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px 1px rgba(231, 216, 175, 0.301);
+    flex-direction: column;
+}
+
+.pfp {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    top: 20%;
+    left: 5%;
+    background-color: rgb(19, 21, 26);
+
+}
+
+.pp {
+    border-radius: 50%;
+    height:130px;
+    width: 130px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: right;
+}
+.msgbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(40, 43, 49);
+    color: rgb(179, 160, 132);
+    right: 0;
+}
+.msgbtn:hover {
+    background-color: rgb(31, 34, 39);
+}
+.username {
+    font-weight: lighter; 
+    margin-right: 5px;
+}
+.pronouns {
+    font-weight: bolder;
+}
+.banner {
+    background-color: rgb(201, 197, 184);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px 10px 0 0 ;
+
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 34, 39);
+    height: 240px;
+    border-radius: 10px;
+    color: aliceblue;
+    
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.aboutme {
+    padding: 20px;
+    font-size: medium;
+}
+
+.aboutmedata {
+    padding: 20px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .body {
+        background-color: rgb(19, 21, 26);
+        height: 100svh;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .profile {
+        position: relative;
+        display: flex;
+        background-color: rgb(19, 21, 26);
+        height: 500px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 0 0 100px 1px rgba(231, 216, 175, 0.301);
+        flex-direction: column;
+    }
+    
+    .pfp {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        top: 14%;
+        left: 5%;
+        background-color: rgb(19, 21, 26);
+    
+    }
+    
+    .pp {
+        border-radius: 50%;
+        height: 90px;
+        width: 90px;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        height: 400px;
+    
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        margin-bottom: 20px;
+
+    }
+    .buttons {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: right;
+    }
+    .msgbtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(40, 43, 49);
+        color: rgb(179, 160, 132);
+        right: 0;
+    }
+
+    .displayname {
+        font-size: 1.5rem;
+    }
+    .username {
+        font-weight: lighter; 
+        margin-right: 5px;
+        font-size: 0.8rem;
+    }
+    .pronouns {
+        font-weight: bolder;
+        font-size: 0.8rem;
+    }
+    .banner {
+        background-color: rgb(201, 197, 184);
+        height: 200px;
+        width: 350px;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .about {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(33, 34, 39);
+        height: 240px;
+        border-radius: 10px;
+        color: aliceblue;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+}
